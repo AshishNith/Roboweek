@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,29 +8,46 @@
   src: url('/assets/fonts/GameOfSquids.ttf') format('truetype');
 }
 
+
 :root {
   --background-color: #010038;
   --color-1: #293A80;
   --color-2: #537EC5;
   --color-3: #F39422;
-}
-
-::-webkit-scrollbar{
-  display: none;
-}
-
-:root {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Orbitron', sans-serif; 
+  background-color: var(--background-color);
+  color: white;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.07em; 
+  word-spacing: 0.3em;
+}
 
-/* #main-container{
-  background-image: url('./assets/background1.webp');
+h1, h2, h3 {
+  font-family: 'GameOfSquids', sans-serif; 
+  text-transform: uppercase; 
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional background styling 
+#main-container {
+  background-image: url('/assets/background1.webp');
   background-repeat: no-repeat;
-} */
-/* #backGround{
-  background-image: url('./assets/background3.webp');
   background-size: cover;
- opacity: 0.2;
- background-position: center; 
-} */
+}
+
+#backGround {
+  background-image: url('/assets/background3.webp');
+  background-size: cover;
+  opacity: 0.2;
+  background-position: center;
+}
+*/

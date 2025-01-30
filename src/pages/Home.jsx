@@ -41,19 +41,19 @@ const Home = () => {
         {/* Features Section */}
       <section className="py-20 z-1000">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="relative z-1000 text-3xl font-bold text-center mb-12 text-pink-400 font-squidFont"><span className='text-white'>Why Join</span> RoboWeek 3.0?</h2>
+          <h2 className="relative z-1000 text-3xl font-bold text-center mb-12 text-pink-400 font-squidFont"><span className='text-white'>WHY JOIN</span> ROBOWEEK 3.0?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[ 
               {
-                title: "Learn & Innovate",
+                title: "LEARN & INNOVATE",
                 description: "Get hands-on experience with cutting-edge robotics technology"
               },
               {
-                title: "Network",
+                title: "NETWORK",
                 description: "Connect with industry experts and like-minded innovators"
               },
               {
-                title: "Win Prizes",
+                title: "WIN PRIZES",
                 description: "Compete for exciting prizes and recognition"
               }
             ].map((feature, index) => (
@@ -80,18 +80,18 @@ const Home = () => {
 <section className="py-16 bg-black">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 className="relative z-10 text-4xl font-bold text-center mb-12 text-pink-400 font-squidFont tracking-wide">
-      Unleash the Future: Event Timeline
+      UNLEASH THE FUTURE: EVENT TIMELINE
     </h2>
     <div className="relative">
       {/* Vertical line */}
       <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-pink-400/50"></div>
 
       {[
-        { event: "Registration Opens", date: "--/03/2025" },
-        { event: "Team Formation Deadline", date: "--/03/2025" },
-        { event: "Events Begin", date: "22/03/2025" },
-        { event: "Day 2", date: "23/03/2025" },
-        { event: "Final Day", date: "24/03/2025" },
+        { event: "REGISTRATION OPENS", date: "--/03/2025" },
+        { event: "TEAM FORMATION DEADLINE", date: "--/03/2025" },
+        { event: "EVENT BEGINS", date: "22/03/2025" },
+        { event: "DAY 2", date: "23/03/2025" },
+        { event: "FINAL DAY", date: "24/03/2025" },
       ].map((item, index) => (
         <motion.div
           key={index}

@@ -82,6 +82,7 @@ Here’s the structure of the project:
 - **[Ashish Nith](https://github.com/AshishNith)** - Contributor
 - **[Punitha Narasegowda](https://github.com/PunithaNarasegowda)** - Contributor
 - **[Sarthak](https://github.com/Sarthak1970)** - Contributor
+- **[Rishab SHarma](https://github.com/RishabhSharma1919)** - Contributor
 
 ## License
 
