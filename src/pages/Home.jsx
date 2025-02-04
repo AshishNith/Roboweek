@@ -91,8 +91,8 @@ const Home = () => {
       <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-pink-400/50"></div>
 
       {[
-        { event: "REGISTRATION OPENS", date: "--/03/2025" },
-        { event: "TEAM FORMATION DEADLINE", date: "--/03/2025" },
+        { event: "REGISTRATION OPENS", date: "5/02/2025" },
+        { event: "TEAM FORMATION DEADLINE", date: "10/03/2025" },
         { event: "EVENT BEGINS", date: "22/03/2025" },
         { event: "DAY 2", date: "23/03/2025" },
         { event: "FINAL DAY", date: "24/03/2025" },

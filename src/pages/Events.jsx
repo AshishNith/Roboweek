@@ -12,7 +12,7 @@ const Events = () => {
     {
       title: "PathFinder",
       type: "competition",
-      date: "极Mar 22, 2025",
+      date: "Mar 22, 2025",
       description: "Driven By code, Guided By Lines !",
       categories: ["requirments 1", "requirments 2", "requirments 3"],
       details: {
@@ -102,7 +102,7 @@ const Events = () => {
     {
       title: "🤖 AI in Robotics Workshop",
       type: "workshop",
-      date: "March XX, 2025",
+      date: "March 24, 2025",
       description: "Explore the integration of AI in modern robotics systems",
       categories: ["Artificial Intelligence", "Robotics", "Machine Learning"],
       details: {
@@ -139,7 +139,7 @@ const Events = () => {
         requirements: ["Laptop with necessary software", "Team registration"],
         rules: ["Original work only", "No pre-built solutions", "Follow code of conduct"]
       },
-      rulebookLink: "https://example.com/rulebook/hackathon",
+      rulebookLink: "https://drive.google.com/drive/folders/1eEXDhsCU2GiOui2EsD6N7czR5DRLHQ5g",
       registrationLink: "https://unstop.com/hackathons/hackathon-roboweek-30-nit-hamirpur-1387760",
       image : 'https://res.cloudinary.com/dosnuagvu/image/upload/v1738609786/WhatsApp_Image_2025-02-04_at_00.38.15_d56f3b26_avnpo1.jpg'
     }
